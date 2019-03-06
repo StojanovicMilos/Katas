@@ -4,75 +4,76 @@ namespace FizzBuzz.Tests
 {
     public class FizzBuzzTests
     {
-        [Theory]
-        [InlineData(3)]
-        [InlineData(33)]
-        [InlineData(45)]
-        [InlineData(99)]
-        public void DividableByThreeContainsFizz(int numberDividableByThree)
+        [Fact]
+        public void XunitWorks()
         {
-            //arrange
-            string expectedSubstring = "Fizz";
-
-            //act
-            string output = Program.FizzBuzz(numberDividableByThree);
-
-            //assert
-            Assert.Contains(expectedSubstring, output);
+            Assert.True(true);
         }
 
         [Theory]
-        [InlineData(5)]
-        [InlineData(20)]
-        [InlineData(45)]
-        [InlineData(100)]
-        public void DividableByFiveContainsBuzz(int numberDividableByFive)
+        [InlineData(1, "1")]
+        [InlineData(2, "2")]
+        [InlineData(4, "4")]
+        public void MapReturnsNumber(int number, string expectedResult)
         {
             //arrange
-            string expectedSubstring = "Buzz";
+            var mappingStrategies = new IMappingStrategy[] { };
+            IMappingStrategy mappingStrategy = new CompositeMappingStrategy(mappingStrategies);
 
             //act
-            string output = Program.FizzBuzz(numberDividableByFive);
+            string result = mappingStrategy.Map(number);
 
             //assert
-            Assert.Contains(expectedSubstring, output);
+            Assert.Equal(expectedResult, result);
         }
 
         [Theory]
-        [InlineData(15)]
-        [InlineData(30)]
-        [InlineData(45)]
-        [InlineData(60)]
-        [InlineData(75)]
-        [InlineData(90)]
-        public void DividableByFifteenContainsBuzz(int numberDividableByFifteen)
+        [InlineData(3, "Fizz")]
+        [InlineData(6, "Fizz")]
+        [InlineData(9, "Fizz")]
+        public void MapReturnsFizzForNumberDividableByThree(int number, string expectedResult)
         {
             //arrange
-            string expectedOutput = "FizzBuzz";
+            var dividableByThreeMappingStrategy = new DividableByThreeMappingStrategy();
 
             //act
-            string output = Program.FizzBuzz(numberDividableByFifteen);
+            string result = dividableByThreeMappingStrategy.Map(number);
 
             //assert
-            Assert.Equal(expectedOutput, output);
+            Assert.Equal(expectedResult, result);
         }
 
         [Theory]
-        [InlineData(2)]
-        [InlineData(8)]
-        [InlineData(46)]
-        [InlineData(98)]
-        public void NotDividableByThreeOrFiveContainsNumber(int numberNotDividableByThreeOrFive)
+        [InlineData(5, "Buzz")]
+        [InlineData(10, "Buzz")]
+        [InlineData(20, "Buzz")]
+        public void MapReturnsBuzzForNumberDividableByFive(int number, string expectedResult)
         {
             //arrange
-            string expectedoutput = numberNotDividableByThreeOrFive.ToString();
+            var dividableByFiveMappingStrategy = new DividableByFiveMappingStrategy();
 
             //act
-            string output = Program.FizzBuzz(numberNotDividableByThreeOrFive);
+            string result = dividableByFiveMappingStrategy.Map(number);
 
             //assert
-            Assert.Equal(expectedoutput, output);
+            Assert.Equal(expectedResult, result);
         }
 
+        [Theory]
+        [InlineData(15, "FizzBuzz")]
+        [InlineData(30, "FizzBuzz")]
+        [InlineData(90, "FizzBuzz")]
+        public void MapReturnsFizzBuzzForNumberDividableByFifteen(int number, string expectedResult)
+        {
+            //arrange
+            var mappingStrategies = new IMappingStrategy[] { new DividableByThreeMappingStrategy(), new DividableByFiveMappingStrategy() };
+            IMappingStrategy mappingStrategy = new CompositeMappingStrategy(mappingStrategies);
+
+            //act
+            string result = mappingStrategy.Map(number);
+
+            //assert
+            Assert.Equal(expectedResult, result);
+        }
     }
 }

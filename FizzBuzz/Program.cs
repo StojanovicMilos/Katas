@@ -1,42 +1,59 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace FizzBuzz
 {
-    public class Program
+    class Program
     {
         static void Main()
         {
-            RunFizzBuzz();
-            Console.ReadLine();
-        }
-
-        private static void RunFizzBuzz()
-        {
-            for (int i = 1; i <= 100; i++)
+            var mappingStrategies = new IMappingStrategy[]
             {
-                Console.WriteLine(FizzBuzz(i));
+                new DividableByThreeMappingStrategy(),
+                new DividableByFiveMappingStrategy()
+            };
+            IMappingStrategy mappingStrategy = new CompositeMappingStrategy(mappingStrategies);
+
+            const int minimum = 1;
+            const int maximum = 100;
+            for (var number = minimum; number <= maximum; number++)
+            {
+                Console.WriteLine(number + " => " + mappingStrategy.Map(number));
             }
         }
+    }
 
-        public static string FizzBuzz(int i)
+    public interface IMappingStrategy
+    {
+        string Map(int number);
+    }
+
+    public class DividableByThreeMappingStrategy : IMappingStrategy
+    {
+        public string Map(int number) => number % 3 == 0 ? "Fizz" : string.Empty;
+    }
+
+    public class DividableByFiveMappingStrategy : IMappingStrategy
+    {
+        public string Map(int number) => number % 5 == 0 ? "Buzz" : string.Empty;
+    }
+
+    public class CompositeMappingStrategy : IMappingStrategy
+    {
+        private readonly IEnumerable<IMappingStrategy> _mappingStrategies;
+
+        public CompositeMappingStrategy(IEnumerable<IMappingStrategy> mappingStrategies)
         {
-            string output = string.Empty;
-            if (i % 3 == 0)
-            {
-                output += "Fizz";
-            }
+            _mappingStrategies = mappingStrategies ?? throw new ArgumentNullException(nameof(mappingStrategies));
+        }
 
-            if (i % 5 == 0)
-            {
-                output += "Buzz";
-            }
-
-            if (output == string.Empty)
-            {
-                output = i.ToString();
-            }
-
-            return output;
+        public string Map(int number)
+        {
+            var result = _mappingStrategies.Aggregate(string.Empty, (current, mappingStrategy) => current + mappingStrategy?.Map(number));
+            if (result == string.Empty)
+                result = number.ToString();
+            return result;
         }
     }
 }
