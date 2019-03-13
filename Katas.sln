@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Tests", "FizzBuzz.Tests\FizzBuzz.Tests.csproj", "{CEB66AF2-2573-4CB6-9CFC-45D08C7C9625}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreKeeper.Tests", "ScoreKeeper.Tests\ScoreKeeper.Tests.csproj", "{120A7B7B-25F1-40DB-8AA8-B3AFDDF5F746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreKeeper", "ScoreKeeper\ScoreKeeper.csproj", "{9BDB2C28-C74A-4765-8F5C-86A4C13B7799}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{CEB66AF2-2573-4CB6-9CFC-45D08C7C9625}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEB66AF2-2573-4CB6-9CFC-45D08C7C9625}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEB66AF2-2573-4CB6-9CFC-45D08C7C9625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120A7B7B-25F1-40DB-8AA8-B3AFDDF5F746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120A7B7B-25F1-40DB-8AA8-B3AFDDF5F746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120A7B7B-25F1-40DB-8AA8-B3AFDDF5F746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120A7B7B-25F1-40DB-8AA8-B3AFDDF5F746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDB2C28-C74A-4765-8F5C-86A4C13B7799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDB2C28-C74A-4765-8F5C-86A4C13B7799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDB2C28-C74A-4765-8F5C-86A4C13B7799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDB2C28-C74A-4765-8F5C-86A4C13B7799}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

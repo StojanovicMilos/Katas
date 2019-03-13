@@ -5,7 +5,7 @@ namespace FizzBuzz.Tests
     public class FizzBuzzTests
     {
         [Fact]
-        public void XunitWorks()
+        public void FizzBuzzTestsWork()
         {
             Assert.True(true);
         }
