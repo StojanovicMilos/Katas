@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IScoreKeeper.cs" />
+    <Compile Include="ITeamScore.cs" />
+    <Compile Include="NoPrimitivesMath.cs" />
+    <Compile Include="NoPrimitivesTeamScore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScoreKeeper.cs" />
+    <Compile Include="IntTeamScore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
