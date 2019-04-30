@@ -12,7 +12,7 @@ namespace ScoreKeeperTellDontAsk
             IScoreboard scoreboard = new ConsoleScoreboard();
             ITeamScore homeTeamScore = new IntTeamScore(initialScore, scoreboard);
             ITeamScore awayTeamScore = new IntTeamScore(initialScore, scoreboard);
-            IScoreKeeper scoreKeeper = new ScoreKeeper.DefaultScoreKeeper(homeTeamScore, awayTeamScore, scoreboard);
+            IScoreKeeper scoreKeeper = new DefaultScoreKeeper(homeTeamScore, awayTeamScore, scoreboard);
 
             scoreKeeper.ScoreTeamA1();
             scoreKeeper.ScoreTeamA2();

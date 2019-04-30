@@ -8,7 +8,7 @@ namespace ScoreKeeperTellDontAsk.Tests
 
         public TestingScoreboard()
         {
-            this.DisplayedText = string.Empty;
+            DisplayedText = string.Empty;
         }
 
         public void Display(string score)
