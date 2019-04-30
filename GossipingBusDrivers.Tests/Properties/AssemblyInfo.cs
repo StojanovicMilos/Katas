@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ScoreKeeper")]
+[assembly: AssemblyTitle("GossipingBusDrivers.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ScoreKeeper")]
+[assembly: AssemblyProduct("GossipingBusDrivers.Tests")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9bdb2c28-c74a-4765-8f5c-86a4c13b7799")]
+[assembly: Guid("5bc7cf72-8754-4cd8-a597-a0a3f3ec01af")]
 
 // Version information for an assembly consists of the following four values:
 //
