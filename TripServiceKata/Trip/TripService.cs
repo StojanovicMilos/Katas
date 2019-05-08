@@ -1,36 +1,34 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using TripServiceKata.Exception;
-using TripServiceKata.User;
 
 namespace TripServiceKata.Trip
 {
     public class TripService
     {
-        public List<Trip> GetTripsByUser(User.User user)
+        private readonly TripDAO _tripDAO;
+
+        public TripService() : this(new TripDAO())
         {
-            List<Trip> tripList = new List<Trip>();
-            User.User loggedUser = UserSession.GetInstance().GetLoggedUser();
-            bool isFriend = false;
-            if (loggedUser != null)
-            {
-                foreach(User.User friend in user.GetFriends())
-                {
-                    if (friend.Equals(loggedUser))
-                    {
-                        isFriend = true;
-                        break;
-                    }
-                }
-                if (isFriend)
-                {
-                    tripList = TripDAO.FindTripsByUser(user);
-                }
-                return tripList;
-            }
-            else
-            {
-                throw new UserNotLoggedInException();
-            }
+            
+        }
+
+        public TripService(TripDAO tripDao)
+        {
+            _tripDAO = tripDao ?? throw new ArgumentNullException(nameof(tripDao));
+        }
+
+        public List<Trip> GetTripsByUser(User.User user, User.User loggedUser)
+        {
+            if (user == null) throw new ArgumentNullException(nameof(user));
+            if (loggedUser == null) throw new UserNotLoggedInException();
+
+            return user.IsFriendWith(loggedUser) ? GetTripsBy(user) : new List<Trip>();
+        }
+
+        protected virtual List<Trip> GetTripsBy(User.User user)
+        {
+            return _tripDAO.FindTripsByUser(user);
         }
     }
 }
