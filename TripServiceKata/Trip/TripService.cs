@@ -7,12 +7,7 @@ namespace TripServiceKata.Trip
     public class TripService
     {
         private readonly TripDAO _tripDAO;
-
-        public TripService() : this(new TripDAO())
-        {
-            
-        }
-
+        
         public TripService(TripDAO tripDao)
         {
             _tripDAO = tripDao ?? throw new ArgumentNullException(nameof(tripDao));

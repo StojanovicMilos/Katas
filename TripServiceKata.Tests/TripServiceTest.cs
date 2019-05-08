@@ -27,7 +27,8 @@ namespace TripServiceKata.Tests
         public void ShouldThrowExceptionIfUserIsNotLoggedIn()
         {
             //arrange
-            TripService tripService = new TripService();
+            MockTripDAO mockTripDAO = new MockTripDAO();
+            TripService tripService = new TripService(mockTripDAO);
             User.User user = AnyUser;
             _loggedInUser = Anonymous; 
 
@@ -41,7 +42,8 @@ namespace TripServiceKata.Tests
         public void ShouldReturnNoTripsWhenUserHasNoFriends()
         {
             //arrange
-            TripService tripService = new TripService();
+            MockTripDAO mockTripDAO = new MockTripDAO();
+            TripService tripService = new TripService(mockTripDAO);
             User.User friendlessUser = AnyUser;
             _loggedInUser = AnyLoggedInUser;
             
@@ -56,7 +58,8 @@ namespace TripServiceKata.Tests
         public void ShouldReturnNoTripsWhenUserIsNotFriendsWithLoggedInUser()
         {
             //arrange
-            TripService tripService = new TripService();
+            MockTripDAO mockTripDAO = new MockTripDAO();
+            TripService tripService = new TripService(mockTripDAO);
             User.User friendfulUser = new User.User();
             friendfulUser.AddFriend(AnyUser);
             _loggedInUser = AnyLoggedInUser;
