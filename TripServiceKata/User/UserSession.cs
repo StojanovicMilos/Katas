@@ -4,6 +4,7 @@ namespace TripServiceKata.User
 {
     public class UserSession
     {
+        // ReSharper disable once InconsistentNaming
         private static readonly UserSession userSession = new UserSession();
 
         private UserSession() { }

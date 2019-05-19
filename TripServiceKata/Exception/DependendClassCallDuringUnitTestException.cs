@@ -6,7 +6,8 @@ namespace TripServiceKata.Exception
     [Serializable]
     public class DependendClassCallDuringUnitTestException : System.Exception
     {
-        public DependendClassCallDuringUnitTestException() : base() { }
+        public DependendClassCallDuringUnitTestException()
+        { }
 
         public DependendClassCallDuringUnitTestException(string message, System.Exception innerException) : base(message, innerException) { }
 
