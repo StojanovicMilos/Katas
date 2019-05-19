@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IAmTimCoreyWeekly", "IAmTim
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculationsLibrary", "IAmTimCoreyWeekly\CalculationsLibrary\CalculationsLibrary.csproj", "{B4D45B8C-1B2B-49B1-BE39-04F4FB45BF39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationsLibrary.Tests", "CalculationsLibrary.Tests\CalculationsLibrary.Tests.csproj", "{2B22A0C4-708E-47CD-8F8B-F2BA25929F44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,12 +79,17 @@ Global
 		{B4D45B8C-1B2B-49B1-BE39-04F4FB45BF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4D45B8C-1B2B-49B1-BE39-04F4FB45BF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4D45B8C-1B2B-49B1-BE39-04F4FB45BF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B22A0C4-708E-47CD-8F8B-F2BA25929F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B22A0C4-708E-47CD-8F8B-F2BA25929F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B22A0C4-708E-47CD-8F8B-F2BA25929F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B22A0C4-708E-47CD-8F8B-F2BA25929F44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B4D45B8C-1B2B-49B1-BE39-04F4FB45BF39} = {065063D5-D1FE-4955-A489-6F3E52154B8E}
+		{2B22A0C4-708E-47CD-8F8B-F2BA25929F44} = {065063D5-D1FE-4955-A489-6F3E52154B8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
