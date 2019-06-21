@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialListReverse", "Parti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialListReverse.Tests", "PartialListReverse.Tests\PartialListReverse.Tests.csproj", "{4D7210F9-10FF-4DE0-A6EF-F58A88558D2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertingArrayToTree", "ConvertingArrayToTree\ConvertingArrayToTree.csproj", "{E2358E6F-37E9-48F5-960E-EF81679BC066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertingArrayToTree.Tests", "ConvertingArrayToTree.Tests\ConvertingArrayToTree.Tests.csproj", "{5C6CE79D-8E61-43EF-8118-7CCC61051AFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +131,14 @@ Global
 		{4D7210F9-10FF-4DE0-A6EF-F58A88558D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D7210F9-10FF-4DE0-A6EF-F58A88558D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D7210F9-10FF-4DE0-A6EF-F58A88558D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2358E6F-37E9-48F5-960E-EF81679BC066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2358E6F-37E9-48F5-960E-EF81679BC066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2358E6F-37E9-48F5-960E-EF81679BC066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2358E6F-37E9-48F5-960E-EF81679BC066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6CE79D-8E61-43EF-8118-7CCC61051AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6CE79D-8E61-43EF-8118-7CCC61051AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6CE79D-8E61-43EF-8118-7CCC61051AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6CE79D-8E61-43EF-8118-7CCC61051AFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,6 +153,8 @@ Global
 		{06850500-F79B-4FBD-B23E-2B907F7B40FF} = {065063D5-D1FE-4955-A489-6F3E52154B8E}
 		{CE23FD96-2942-4B40-AECF-6343A51035F7} = {511F6CF8-DCD6-450D-BD68-80E6CAED48CF}
 		{4D7210F9-10FF-4DE0-A6EF-F58A88558D2D} = {511F6CF8-DCD6-450D-BD68-80E6CAED48CF}
+		{E2358E6F-37E9-48F5-960E-EF81679BC066} = {511F6CF8-DCD6-450D-BD68-80E6CAED48CF}
+		{5C6CE79D-8E61-43EF-8118-7CCC61051AFC} = {511F6CF8-DCD6-450D-BD68-80E6CAED48CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
