@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWeeklyChallenge", "Linq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWeeklyChallenge.Tests", "LinqWeeklyChallenge.Tests\LinqWeeklyChallenge.Tests.csproj", "{9B391836-BD2E-4875-9F8E-9F46C28ACDDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomethingToEaseYourTroubledMind", "SomethingToEaseYourTroubledMind\SomethingToEaseYourTroubledMind.csproj", "{9010A237-04C3-4CDC-BCC8-44B8F7FB2D14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +153,10 @@ Global
 		{9B391836-BD2E-4875-9F8E-9F46C28ACDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B391836-BD2E-4875-9F8E-9F46C28ACDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B391836-BD2E-4875-9F8E-9F46C28ACDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9010A237-04C3-4CDC-BCC8-44B8F7FB2D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9010A237-04C3-4CDC-BCC8-44B8F7FB2D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9010A237-04C3-4CDC-BCC8-44B8F7FB2D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9010A237-04C3-4CDC-BCC8-44B8F7FB2D14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
