@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialListReverse", "Parti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialListReverse.Tests", "PartialListReverse.Tests\PartialListReverse.Tests.csproj", "{4D7210F9-10FF-4DE0-A6EF-F58A88558D2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose", "GildedRose\GildedRose.csproj", "{8B227DAF-B209-48AB-8C08-06F337B319C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Tests", "GildedRose.Tests\GildedRose.Tests.csproj", "{10E1F544-5A8A-495B-8BA6-BD05A624CA4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +131,14 @@ Global
 		{4D7210F9-10FF-4DE0-A6EF-F58A88558D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D7210F9-10FF-4DE0-A6EF-F58A88558D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D7210F9-10FF-4DE0-A6EF-F58A88558D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B227DAF-B209-48AB-8C08-06F337B319C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B227DAF-B209-48AB-8C08-06F337B319C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B227DAF-B209-48AB-8C08-06F337B319C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B227DAF-B209-48AB-8C08-06F337B319C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E1F544-5A8A-495B-8BA6-BD05A624CA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E1F544-5A8A-495B-8BA6-BD05A624CA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E1F544-5A8A-495B-8BA6-BD05A624CA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E1F544-5A8A-495B-8BA6-BD05A624CA4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
