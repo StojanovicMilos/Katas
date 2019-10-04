@@ -52,6 +52,8 @@
     <Compile Include="ChallengeForm.Designer.cs">
       <DependentUpon>ChallengeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CSVUserDb.cs" />
+    <Compile Include="IUserDb.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserModel.cs" />
