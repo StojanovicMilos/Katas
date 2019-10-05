@@ -1,57 +1,43 @@
 ﻿using System;
 using System.Configuration;
-using System.Data;
-using System.Data.SqlClient;
 using System.Linq;
-using Dapper;
+using DapperDemo.DAL;
 
 namespace ConsoleApp
 {
-    static class Program
+    public static class Program
     {
-        static void Main()
+        public static void Main()
         {
-            string actionToTake;
-            string connectionString = ConfigurationManager.ConnectionStrings["DapperDemoDB"].ConnectionString;
+            IDataAccessObject dao = new DataAccessObject(ConfigurationManager.ConnectionStrings["DapperDemoDB"].ConnectionString);
 
+            string actionToTake;
             do
             {
                 Console.Write("What action do you want to take (Display, Add, or Quit): ");
                 actionToTake = Console.ReadLine();
-
-                switch (actionToTake.ToLower())
+                switch (actionToTake?.ToLower())
                 {
                     case "display":
-                        using (IDbConnection cnn = new SqlConnection(connectionString))
-                        {
-                            var records = cnn.Query<UserModel>("spSystemUser_Get", commandType: CommandType.StoredProcedure).ToList();
-
-                            Console.WriteLine();
-                            records.ForEach(x => Console.WriteLine($"{ x.FirstName } { x.LastName }"));
-                        }
+                        Console.WriteLine();
+                        dao.GetAllUsers(IDataAccessObjectConstants.NoFilter).ToList().ForEach(user => Console.WriteLine(user.FullName));
                         Console.WriteLine();
                         break;
                     case "add":
                         Console.Write("What is the first name: ");
-                        string firstName = Console.ReadLine();
-
+                        var firstName = Console.ReadLine();
                         Console.Write("What is the last name: ");
-                        string lastName = Console.ReadLine();
-
-                        using (IDbConnection cnn = new SqlConnection(connectionString))
-                        {
-                            var p = new
-                            {
-                                FirstName = firstName,
-                                LastName = lastName
-                            };
-
-                            cnn.Execute("dbo.spSystemUser_Create", p, commandType: CommandType.StoredProcedure);
-                        }
+                        var lastName= Console.ReadLine();
+                        dao.CreateUser(new UserDTO { FirstName = firstName, LastName = lastName });
                         Console.WriteLine();
                         break;
+                    case "quit":
+                        break;
+                    default:
+                        Console.WriteLine("Wrong input.");
+                        break;
                 }
-            } while (actionToTake.ToLower() != "quit");
+            } while (actionToTake?.ToLower() != "quit");
         }
     }
 }

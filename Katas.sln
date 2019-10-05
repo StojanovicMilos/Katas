@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "IAmTimCoreyWe
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DapperDemoDB", "IAmTimCoreyWeekly\RefactoringChallenge\DapperDemoDB\DapperDemoDB.sqlproj", "{81B5F5DA-D8F7-456F-9F5C-45D3AAA2791A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperDemo.DAL", "DapperDemo.DAL\DapperDemo.DAL.csproj", "{9A76304A-27B1-441F-BF4F-556F8BA34FBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +205,10 @@ Global
 		{81B5F5DA-D8F7-456F-9F5C-45D3AAA2791A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81B5F5DA-D8F7-456F-9F5C-45D3AAA2791A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81B5F5DA-D8F7-456F-9F5C-45D3AAA2791A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9A76304A-27B1-441F-BF4F-556F8BA34FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A76304A-27B1-441F-BF4F-556F8BA34FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A76304A-27B1-441F-BF4F-556F8BA34FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A76304A-27B1-441F-BF4F-556F8BA34FBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -227,6 +233,7 @@ Global
 		{2E2BDB20-8771-41EE-AEAF-62C20EA56C70} = {B9F895AA-273D-4FB0-9DBF-F165ECAD0B47}
 		{0BA17008-ADC8-4080-B499-69101E8F176E} = {B9F895AA-273D-4FB0-9DBF-F165ECAD0B47}
 		{81B5F5DA-D8F7-456F-9F5C-45D3AAA2791A} = {B9F895AA-273D-4FB0-9DBF-F165ECAD0B47}
+		{9A76304A-27B1-441F-BF4F-556F8BA34FBB} = {B9F895AA-273D-4FB0-9DBF-F165ECAD0B47}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
