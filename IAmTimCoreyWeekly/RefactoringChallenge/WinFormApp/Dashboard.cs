@@ -27,7 +27,7 @@ namespace WinFormApp
                 .ForEach(x => _users.Add(x));
         }
 
-        private void createUserButton_Click(object sender, EventArgs e)
+        private void CreateUserButton_Click(object sender, EventArgs e)
         {
             _dao.CreateUser(new UserDTO { FirstName = firstNameText.Text, LastName = lastNameText.Text });
             ClearTextBoxes();
@@ -41,6 +41,6 @@ namespace WinFormApp
             firstNameText.Focus();
         }
 
-        private void applyFilterButton_Click(object sender, EventArgs e) => DisplayUsersFromDb(filterUsersText.Text);
+        private void ApplyFilterButton_Click(object sender, EventArgs e) => DisplayUsersFromDb(filterUsersText.Text);
     }
 }
