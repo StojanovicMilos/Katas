@@ -1,23 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PillReminderUI
 {
     public class PillModel
     {
-        public string PillName { get; set; }
-        public DateTime TimeToTake { get; set; }
-        public DateTime LastTaken { get; set; }
+        private readonly string _pillName;
+        private DateTime _lastTaken;
 
-        public string PillInfo
+        public PillModel(string pillName, DateTime timeToTake, DateTime lastTaken)
         {
-            get
-            {
-                return $"{ PillName } at { TimeToTake.ToString("h:mm tt") }";
-            }
+            _pillName = pillName;
+            TimeToTake = timeToTake;
+            _lastTaken = lastTaken;
         }
+
+        public DateTime TimeToTake { get; }
+
+        public string PillInfo => $"{_pillName} at {TimeToTake:h:mm tt}";
+
+        public void TakePillAt(DateTime time) => _lastTaken = time;
+
+        public bool PillShouldBeTakenBy(DateTime dateTime) => PillShouldBeTakenByDay(dateTime) && PillShouldBeTakenByTime(dateTime);
+
+        private bool PillShouldBeTakenByDay(DateTime dateTime) => _lastTaken.Day < dateTime.Day && _lastTaken < dateTime;
+
+        private bool PillShouldBeTakenByTime(DateTime dateTime) => TimeToTake.TimeOfDay < dateTime.TimeOfDay;
     }
 }

@@ -12,7 +12,7 @@ namespace Diamond
         }
     }
 
-    public class Diamond
+    public static class Diamond
     {
         private const char Asterisk = '*';
 
