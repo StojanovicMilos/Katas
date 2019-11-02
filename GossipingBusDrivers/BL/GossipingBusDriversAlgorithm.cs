@@ -2,19 +2,10 @@
 
 namespace GossipingBusDrivers.BL
 {
-    public class GossipingBusDriversAlgorithm
+    public static class GossipingBusDriversAlgorithm
     {
-        private readonly GossipingBusDriversInputReader _gossipingBusDriversInputReader;
-
-        public GossipingBusDriversAlgorithm(GossipingBusDriversInputReader gossipingBusDriversInputReader)
+        public static void SolveForInput(BusDrivers busDrivers, Action<int> onSuccess, Action onFailure)
         {
-            _gossipingBusDriversInputReader = gossipingBusDriversInputReader ?? throw new ArgumentNullException(nameof(gossipingBusDriversInputReader));
-        }
-
-        public void SolveForInput(string fileName, Action<int> onSuccess, Action onFailure)
-        {
-            var busDrivers = _gossipingBusDriversInputReader.ReadFromInput(fileName);
-
             for (int minute = Constants.ShiftStart; minute <= Constants.ShiftEnd; minute++)
             {
                 busDrivers.Gossip();

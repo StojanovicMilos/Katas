@@ -24,11 +24,11 @@ namespace GossipingBusDrivers.BL
 
         public void Gossip()
         {
-            foreach (var stationGroup in _busDrivers.GroupBy(b => b.CurrentStation).ToArray())
+            foreach (var busDriversInSameStation in _busDrivers.GroupBy(b => b.CurrentStation))
             {
-                foreach (var busDriver in stationGroup)
+                foreach (var busDriver in busDriversInSameStation)
                 {
-                    busDriver.Gossip(stationGroup);
+                    busDriver.Gossip(busDriversInSameStation);
                 }
             }
         }

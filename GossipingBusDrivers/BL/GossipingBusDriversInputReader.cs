@@ -5,9 +5,9 @@ using System.Linq;
 
 namespace GossipingBusDrivers.BL
 {
-    public class GossipingBusDriversInputReader
+    public static class GossipingBusDriversInputReader
     {
-        public BusDrivers ReadFromInput(string fileName)
+        public static BusDrivers ReadDriversFrom(string fileName)
         {
             if (fileName == null) throw new ArgumentNullException(nameof(fileName));
             return new BusDrivers(

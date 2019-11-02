@@ -5,68 +5,37 @@ namespace GossipingBusDrivers.Tests
 {
     public class GossipingBusDriversTests
     {
-        [Fact]
-        public void GossipingBusDriversExample1()
+        [Theory]
+        [InlineData("InputTextData\\Example1.txt", 5)]
+        [InlineData("InputTextData\\Challenge1.txt", 9)]
+        [InlineData("InputTextData\\Challenge2.txt", 16)]
+        public void GossipingBusDriversExchangeAllGossipsAfter(string fileName, int expectedMinutes)
         {
             //arrange
-            const int expectedMinutes = 5;
             void OnSuccess(int minute) => Assert.Equal(expectedMinutes, minute);
-            void OnFailure() => Assert.True(false);
-            GossipingBusDriversInputReader reader = new GossipingBusDriversInputReader();
-            GossipingBusDriversAlgorithm gossipingBusDrivers = new GossipingBusDriversAlgorithm(reader);
+            void OnFailure() => FailedTest();
+            BusDrivers busDrivers = GossipingBusDriversInputReader.ReadDriversFrom(fileName);
 
             //act
-            gossipingBusDrivers.SolveForInput("InputTextData\\Example1.txt", OnSuccess, OnFailure);
+            GossipingBusDriversAlgorithm.SolveForInput(busDrivers, OnSuccess, OnFailure);
 
             //assert
 
         }
 
-        [Fact]
-        public void GossipingBusDriversExample2()
-        {
-            //arrange
-            void OnSuccess(int minute) => Assert.True(false);
-            void OnFailure() => Assert.True(true);
-            GossipingBusDriversInputReader reader = new GossipingBusDriversInputReader();
-            GossipingBusDriversAlgorithm gossipingBusDrivers = new GossipingBusDriversAlgorithm(reader);
-
-            //act
-            gossipingBusDrivers.SolveForInput("InputTextData\\Example2.txt", OnSuccess, OnFailure);
-
-            //assert
-
-        }
+        private void FailedTest() => Assert.True(false);
+        private void SuccessfulTest() => Assert.True(true);
 
         [Fact]
-        public void GossipingBusDriversChallenge1()
+        public void GossipingBusDriversNeverExchangeAllGossips()
         {
             //arrange
-            const int expectedMinutes = 9;
-            void OnSuccess(int minute) => Assert.Equal(expectedMinutes, minute);
-            void OnFailure() => Assert.True(false);
-            GossipingBusDriversInputReader reader = new GossipingBusDriversInputReader();
-            GossipingBusDriversAlgorithm gossipingBusDrivers = new GossipingBusDriversAlgorithm(reader);
+            void OnSuccess(int minute) => FailedTest();
+            void OnFailure() => SuccessfulTest();
+            BusDrivers busDrivers = GossipingBusDriversInputReader.ReadDriversFrom("InputTextData\\Example2.txt");
 
             //act
-            gossipingBusDrivers.SolveForInput("InputTextData\\Challenge1.txt", OnSuccess, OnFailure);
-
-            //assert
-
-        }
-
-        [Fact]
-        public void GossipingBusDriversChallenge2()
-        {
-            //arrange
-            const int expectedMinutes = 16;
-            void OnSuccess(int minute) => Assert.Equal(expectedMinutes, minute);
-            void OnFailure() => Assert.True(false);
-            GossipingBusDriversInputReader reader = new GossipingBusDriversInputReader();
-            GossipingBusDriversAlgorithm gossipingBusDrivers = new GossipingBusDriversAlgorithm(reader);
-
-            //act
-            gossipingBusDrivers.SolveForInput("InputTextData\\Challenge2.txt", OnSuccess, OnFailure);
+            GossipingBusDriversAlgorithm.SolveForInput(busDrivers, OnSuccess, OnFailure);
 
             //assert
 

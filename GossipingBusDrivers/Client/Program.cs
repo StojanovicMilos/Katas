@@ -9,14 +9,13 @@ namespace GossipingBusDrivers.Client
         {
             void OnSuccess(int minute) => Console.WriteLine("All bus drivers have found out all gossips after " + minute + " minutes");
             void OnFailure() => Console.WriteLine("never");
+            string[] fileNames = {"InputTextData\\Example1.txt", "InputTextData\\Example2.txt", "InputTextData\\Challenge1.txt", "InputTextData\\Challenge2.txt"};
 
-            GossipingBusDriversInputReader reader = new GossipingBusDriversInputReader();
-            GossipingBusDriversAlgorithm gossipingBusDrivers = new GossipingBusDriversAlgorithm(reader);
-
-            gossipingBusDrivers.SolveForInput("InputTextData\\Example1.txt", OnSuccess, OnFailure);
-            gossipingBusDrivers.SolveForInput("InputTextData\\Example2.txt", OnSuccess, OnFailure);
-            gossipingBusDrivers.SolveForInput("InputTextData\\Challenge1.txt", OnSuccess, OnFailure);
-            gossipingBusDrivers.SolveForInput("InputTextData\\Challenge2.txt", OnSuccess, OnFailure);
+            foreach (var fileName in fileNames)
+            {
+                BusDrivers busDrivers = GossipingBusDriversInputReader.ReadDriversFrom(fileName);
+                GossipingBusDriversAlgorithm.SolveForInput(busDrivers, OnSuccess, OnFailure);
+            }
         }
     }
 }
