@@ -77,6 +77,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diamond", "Diamond\Diamond.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PillReminderUI", "IAmTimCoreyWeekly\PillReminderUI\PillReminderUI.csproj", "{99935DFC-B5F0-4095-BA04-D6FA87B13B8C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinChangeChallenge", "IAmTimCoreyWeekly\CoinChangeChallenge\CoinChangeChallenge.csproj", "{3321E78C-538C-44A5-9DB0-25A4FEC709A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinChange.Tests", "IAmTimCoreyWeekly\CoinChange.Tests\CoinChange.Tests.csproj", "{A62C953E-B2F8-42AF-9844-8E2007F7A0C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -221,6 +225,14 @@ Global
 		{99935DFC-B5F0-4095-BA04-D6FA87B13B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99935DFC-B5F0-4095-BA04-D6FA87B13B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99935DFC-B5F0-4095-BA04-D6FA87B13B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3321E78C-538C-44A5-9DB0-25A4FEC709A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3321E78C-538C-44A5-9DB0-25A4FEC709A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3321E78C-538C-44A5-9DB0-25A4FEC709A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3321E78C-538C-44A5-9DB0-25A4FEC709A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62C953E-B2F8-42AF-9844-8E2007F7A0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62C953E-B2F8-42AF-9844-8E2007F7A0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62C953E-B2F8-42AF-9844-8E2007F7A0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62C953E-B2F8-42AF-9844-8E2007F7A0C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -247,6 +259,8 @@ Global
 		{CE23FD96-2942-4B40-AECF-6343A51035F7} = {511F6CF8-DCD6-450D-BD68-80E6CAED48CF}
 		{4D7210F9-10FF-4DE0-A6EF-F58A88558D2D} = {511F6CF8-DCD6-450D-BD68-80E6CAED48CF}
 		{99935DFC-B5F0-4095-BA04-D6FA87B13B8C} = {065063D5-D1FE-4955-A489-6F3E52154B8E}
+		{3321E78C-538C-44A5-9DB0-25A4FEC709A5} = {065063D5-D1FE-4955-A489-6F3E52154B8E}
+		{A62C953E-B2F8-42AF-9844-8E2007F7A0C1} = {065063D5-D1FE-4955-A489-6F3E52154B8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
