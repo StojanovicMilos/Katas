@@ -13,4 +13,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TennisGame\TennisGame.csproj" />
+  </ItemGroup>
+
 </Project>
