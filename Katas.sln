@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{42A2D817-205F-4676-A26B-D8431B893E56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{42A2D817-205F-4676-A26B-D8431B893E56}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz.Tests", "FizzBuzz.Tests\FizzBuzz.Tests.csproj", "{CEB66AF2-2573-4CB6-9CFC-45D08C7C9625}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Tests", "FizzBuzz.Tests\FizzBuzz.Tests.csproj", "{CEB66AF2-2573-4CB6-9CFC-45D08C7C9625}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScoreKeeper.Tests", "ScoreKeeper.Tests\ScoreKeeper.Tests.csproj", "{120A7B7B-25F1-40DB-8AA8-B3AFDDF5F746}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreKeeper.Tests", "ScoreKeeper.Tests\ScoreKeeper.Tests.csproj", "{120A7B7B-25F1-40DB-8AA8-B3AFDDF5F746}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScoreKeeper", "ScoreKeeper\ScoreKeeper.csproj", "{9BDB2C28-C74A-4765-8F5C-86A4C13B7799}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreKeeper", "ScoreKeeper\ScoreKeeper.csproj", "{9BDB2C28-C74A-4765-8F5C-86A4C13B7799}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScoreKeeperTellDontAsk", "ScoreKeeperTellDontAsk\ScoreKeeperTellDontAsk.csproj", "{52ED871A-CCE7-496D-B801-778501171BAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreKeeperTellDontAsk", "ScoreKeeperTellDontAsk\ScoreKeeperTellDontAsk.csproj", "{52ED871A-CCE7-496D-B801-778501171BAF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScoreKeeperTellDontAsk.Tests", "ScoreKeeperTellDontAsk.Tests\ScoreKeeperTellDontAsk.Tests.csproj", "{17AB5102-D64B-4145-BD80-1B5496CEC0AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreKeeperTellDontAsk.Tests", "ScoreKeeperTellDontAsk.Tests\ScoreKeeperTellDontAsk.Tests.csproj", "{17AB5102-D64B-4145-BD80-1B5496CEC0AF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GossipingBusDrivers", "GossipingBusDrivers\GossipingBusDrivers.csproj", "{69BDB783-B1D2-408E-84CE-00E35CB432DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GossipingBusDrivers", "GossipingBusDrivers\GossipingBusDrivers.csproj", "{69BDB783-B1D2-408E-84CE-00E35CB432DB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GossipingBusDrivers.Tests", "GossipingBusDrivers.Tests\GossipingBusDrivers.Tests.csproj", "{5BC7CF72-8754-4CD8-A597-A0A3F3EC01AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GossipingBusDrivers.Tests", "GossipingBusDrivers.Tests\GossipingBusDrivers.Tests.csproj", "{5BC7CF72-8754-4CD8-A597-A0A3F3EC01AF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripServiceKata", "TripServiceKata\TripServiceKata.csproj", "{45E49CBA-0800-4391-AD80-E23837C66D95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripServiceKata", "TripServiceKata\TripServiceKata.csproj", "{45E49CBA-0800-4391-AD80-E23837C66D95}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripServiceKata.Tests", "TripServiceKata.Tests\TripServiceKata.Tests.csproj", "{41370430-26A5-44FE-A12D-D63ECD369009}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripServiceKata.Tests", "TripServiceKata.Tests\TripServiceKata.Tests.csproj", "{41370430-26A5-44FE-A12D-D63ECD369009}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IAmTimCoreyWeekly", "IAmTimCoreyWeekly", "{065063D5-D1FE-4955-A489-6F3E52154B8E}"
 EndProject
@@ -29,53 +29,53 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculationsLibrary", "IAmT
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft", "Microsoft", "{511F6CF8-DCD6-450D-BD68-80E6CAED48CF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeriodOfArray", "Microsoft\PeriodOfArray\PeriodOfArray.csproj", "{E61037CC-67F5-4875-8F33-C355D4FE0CA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeriodOfArray", "Microsoft\PeriodOfArray\PeriodOfArray.csproj", "{E61037CC-67F5-4875-8F33-C355D4FE0CA2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeriodOfArray.Tests", "Microsoft\PeriodOfArray.Tests\PeriodOfArray.Tests.csproj", "{11E4BD73-0C8E-4539-9F16-0996086A3CA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeriodOfArray.Tests", "Microsoft\PeriodOfArray.Tests\PeriodOfArray.Tests.csproj", "{11E4BD73-0C8E-4539-9F16-0996086A3CA8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsomorphicStrings", "Microsoft\IsomorphicStrings\IsomorphicStrings.csproj", "{B0484653-72FB-496C-9C09-1BCF2A5B2FC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsomorphicStrings", "Microsoft\IsomorphicStrings\IsomorphicStrings.csproj", "{B0484653-72FB-496C-9C09-1BCF2A5B2FC9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsomorphicStrings.Tests", "Microsoft\IsomorphicStrings.Tests\IsomorphicStrings.Tests.csproj", "{2F590895-5417-49CE-A3FD-48E5CA296D93}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsomorphicStrings.Tests", "Microsoft\IsomorphicStrings.Tests\IsomorphicStrings.Tests.csproj", "{2F590895-5417-49CE-A3FD-48E5CA296D93}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SomethingToEaseYourTroubledMind", "SomethingToEaseYourTroubledMind\SomethingToEaseYourTroubledMind.csproj", "{9010A237-04C3-4CDC-BCC8-44B8F7FB2D14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomethingToEaseYourTroubledMind", "SomethingToEaseYourTroubledMind\SomethingToEaseYourTroubledMind.csproj", "{9010A237-04C3-4CDC-BCC8-44B8F7FB2D14}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRose", "GildedRose\GildedRose.csproj", "{8B227DAF-B209-48AB-8C08-06F337B319C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose", "GildedRose\GildedRose.csproj", "{8B227DAF-B209-48AB-8C08-06F337B319C2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRose.Tests", "GildedRose.Tests\GildedRose.Tests.csproj", "{10E1F544-5A8A-495B-8BA6-BD05A624CA4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Tests", "GildedRose.Tests\GildedRose.Tests.csproj", "{10E1F544-5A8A-495B-8BA6-BD05A624CA4F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculationChallenge", "IAmTimCoreyWeekly\CalculationChallenge\CalculationChallenge.csproj", "{06850500-F79B-4FBD-B23E-2B907F7B40FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationChallenge", "IAmTimCoreyWeekly\CalculationChallenge\CalculationChallenge.csproj", "{06850500-F79B-4FBD-B23E-2B907F7B40FF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculationsLibrary.Tests", "IAmTimCoreyWeekly\CalculationsLibrary.Tests\CalculationsLibrary.Tests.csproj", "{2B22A0C4-708E-47CD-8F8B-F2BA25929F44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationsLibrary.Tests", "IAmTimCoreyWeekly\CalculationsLibrary.Tests\CalculationsLibrary.Tests.csproj", "{2B22A0C4-708E-47CD-8F8B-F2BA25929F44}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqWeeklyChallenge", "IAmTimCoreyWeekly\LinqWeeklyChallenge\LinqWeeklyChallenge.csproj", "{AFF69063-F9E0-483E-ACDF-639A94C6A0F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWeeklyChallenge", "IAmTimCoreyWeekly\LinqWeeklyChallenge\LinqWeeklyChallenge.csproj", "{AFF69063-F9E0-483E-ACDF-639A94C6A0F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqWeeklyChallenge.Tests", "IAmTimCoreyWeekly\LinqWeeklyChallenge.Tests\LinqWeeklyChallenge.Tests.csproj", "{9B391836-BD2E-4875-9F8E-9F46C28ACDDA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWeeklyChallenge.Tests", "IAmTimCoreyWeekly\LinqWeeklyChallenge.Tests\LinqWeeklyChallenge.Tests.csproj", "{9B391836-BD2E-4875-9F8E-9F46C28ACDDA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextFileChallenge", "IAmTimCoreyWeekly\TextFileChallenge\TextFileChallenge.csproj", "{E8F410AB-862F-4A71-A460-672DC547C756}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFileChallenge", "IAmTimCoreyWeekly\TextFileChallenge\TextFileChallenge.csproj", "{E8F410AB-862F-4A71-A460-672DC547C756}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefactoringChallenge", "RefactoringChallenge", "{B9F895AA-273D-4FB0-9DBF-F165ECAD0B47}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormApp", "IAmTimCoreyWeekly\RefactoringChallenge\WinFormApp\WinFormApp.csproj", "{2E2BDB20-8771-41EE-AEAF-62C20EA56C70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormApp", "IAmTimCoreyWeekly\RefactoringChallenge\WinFormApp\WinFormApp.csproj", "{2E2BDB20-8771-41EE-AEAF-62C20EA56C70}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "IAmTimCoreyWeekly\RefactoringChallenge\ConsoleApp\ConsoleApp.csproj", "{0BA17008-ADC8-4080-B499-69101E8F176E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "IAmTimCoreyWeekly\RefactoringChallenge\ConsoleApp\ConsoleApp.csproj", "{0BA17008-ADC8-4080-B499-69101E8F176E}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DapperDemoDB", "IAmTimCoreyWeekly\RefactoringChallenge\DapperDemoDB\DapperDemoDB.sqlproj", "{81B5F5DA-D8F7-456F-9F5C-45D3AAA2791A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperDemo.DAL", "IAmTimCoreyWeekly\RefactoringChallenge\DapperDemo.DAL\DapperDemo.DAL.csproj", "{9A76304A-27B1-441F-BF4F-556F8BA34FBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperDemo.DAL", "IAmTimCoreyWeekly\RefactoringChallenge\DapperDemo.DAL\DapperDemo.DAL.csproj", "{9A76304A-27B1-441F-BF4F-556F8BA34FBB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleToDoList", "IAmTimCoreyWeekly\ConsoleToDoList\ConsoleToDoList.csproj", "{F12C3C9D-D818-4FA5-958F-93F64AF57181}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertingArrayToTree", "Microsoft\ConvertingArrayToTree\ConvertingArrayToTree.csproj", "{E2358E6F-37E9-48F5-960E-EF81679BC066}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertingArrayToTree", "Microsoft\ConvertingArrayToTree\ConvertingArrayToTree.csproj", "{E2358E6F-37E9-48F5-960E-EF81679BC066}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertingArrayToTree.Tests", "Microsoft\ConvertingArrayToTree.Tests\ConvertingArrayToTree.Tests.csproj", "{5C6CE79D-8E61-43EF-8118-7CCC61051AFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertingArrayToTree.Tests", "Microsoft\ConvertingArrayToTree.Tests\ConvertingArrayToTree.Tests.csproj", "{5C6CE79D-8E61-43EF-8118-7CCC61051AFC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartialListReverse", "Microsoft\PartialListReverse\PartialListReverse.csproj", "{CE23FD96-2942-4B40-AECF-6343A51035F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialListReverse", "Microsoft\PartialListReverse\PartialListReverse.csproj", "{CE23FD96-2942-4B40-AECF-6343A51035F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartialListReverse.Tests", "Microsoft\PartialListReverse.Tests\PartialListReverse.Tests.csproj", "{4D7210F9-10FF-4DE0-A6EF-F58A88558D2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialListReverse.Tests", "Microsoft\PartialListReverse.Tests\PartialListReverse.Tests.csproj", "{4D7210F9-10FF-4DE0-A6EF-F58A88558D2D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diamond", "Diamond\Diamond.csproj", "{AA550545-A255-4F92-B883-436F9731B025}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PillReminderUI", "IAmTimCoreyWeekly\PillReminderUI\PillReminderUI.csproj", "{99935DFC-B5F0-4095-BA04-D6FA87B13B8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PillReminderUI", "IAmTimCoreyWeekly\PillReminderUI\PillReminderUI.csproj", "{99935DFC-B5F0-4095-BA04-D6FA87B13B8C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinChangeChallenge", "IAmTimCoreyWeekly\CoinChangeChallenge\CoinChangeChallenge.csproj", "{3321E78C-538C-44A5-9DB0-25A4FEC709A5}"
 EndProject
@@ -91,9 +91,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordWrap", "WordWrap\WordWr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordWrap.Tests", "WordWrap.Tests\WordWrap.Tests.csproj", "{7BAA1D21-2C5A-413E-AD70-7F87267E1ED2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TennisGame", "TennisGame\TennisGame.csproj", "{CF6B2B15-554E-4F0F-9343-7158780C82D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisGame", "TennisGame\TennisGame.csproj", "{CF6B2B15-554E-4F0F-9343-7158780C82D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TennisGame.Tests", "TennisGame.Tests\TennisGame.Tests.csproj", "{8B4BEDDF-8B47-4B92-9031-6B45E4AB6705}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisGame.Tests", "TennisGame.Tests\TennisGame.Tests.csproj", "{8B4BEDDF-8B47-4B92-9031-6B45E4AB6705}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -202,6 +202,8 @@ Global
 		{0BA17008-ADC8-4080-B499-69101E8F176E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BA17008-ADC8-4080-B499-69101E8F176E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81B5F5DA-D8F7-456F-9F5C-45D3AAA2791A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B5F5DA-D8F7-456F-9F5C-45D3AAA2791A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B5F5DA-D8F7-456F-9F5C-45D3AAA2791A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{81B5F5DA-D8F7-456F-9F5C-45D3AAA2791A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81B5F5DA-D8F7-456F-9F5C-45D3AAA2791A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81B5F5DA-D8F7-456F-9F5C-45D3AAA2791A}.Release|Any CPU.Deploy.0 = Release|Any CPU
