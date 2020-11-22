@@ -5,9 +5,6 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System.Configuration" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\DapperDemo.DAL\DapperDemo.DAL.csproj" />
   </ItemGroup>
   <ItemGroup>
