@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Configuration;
 using System.Linq;
 using DapperDemo.DAL;
 
@@ -9,7 +8,7 @@ namespace ConsoleApp
     {
         public static void Main()
         {
-            IDataAccessObject dao = new DataAccessObject(ConfigurationManager.ConnectionStrings["DapperDemoDB"].ConnectionString);
+            IDataAccessObject dao = new DataAccessObject(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=DapperDemoDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
             string actionToTake;
             do

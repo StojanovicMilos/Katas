@@ -15,7 +15,7 @@ namespace WinFormApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Dashboard(new DataAccessObject(ConfigurationManager.ConnectionStrings["DapperDemoDB"].ConnectionString)));
+            Application.Run(new Dashboard(new DataAccessObject(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=DapperDemoDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False")));
         }
     }
 }
