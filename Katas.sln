@@ -97,6 +97,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCodeChallenges", "LeetC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxAreaOfIsland", "LeetCodeChallenges\MaxAreaOfIsland\MaxAreaOfIsland.csproj", "{DCAB221C-C85F-4A49-A41F-1AF6C2223C5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintFooBarAlternately", "LeetCodeChallenges\PrintFooBarAlternately\PrintFooBarAlternately.csproj", "{C741D037-2D14-46D0-8170-667F022063D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -275,6 +277,10 @@ Global
 		{DCAB221C-C85F-4A49-A41F-1AF6C2223C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCAB221C-C85F-4A49-A41F-1AF6C2223C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCAB221C-C85F-4A49-A41F-1AF6C2223C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C741D037-2D14-46D0-8170-667F022063D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C741D037-2D14-46D0-8170-667F022063D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C741D037-2D14-46D0-8170-667F022063D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C741D037-2D14-46D0-8170-667F022063D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -306,6 +312,7 @@ Global
 		{9FA9A045-C03F-4CED-B692-BBF54B4F5569} = {065063D5-D1FE-4955-A489-6F3E52154B8E}
 		{01FC2B99-B2EE-4259-BA0F-B5CB760EA00B} = {065063D5-D1FE-4955-A489-6F3E52154B8E}
 		{DCAB221C-C85F-4A49-A41F-1AF6C2223C5B} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
+		{C741D037-2D14-46D0-8170-667F022063D7} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
