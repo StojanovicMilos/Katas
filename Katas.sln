@@ -119,7 +119,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartitionArrayIntoDisjointI
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atoi", "LeetCodeChallenges\Atoi\Atoi.csproj", "{4FB8A3DC-6F13-4CB2-AE5A-AF37CA16B0E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nonNegativeIntegersWithoutConsecutiveOnes", "LeetCodeChallenges\nonNegativeIntegersWithoutConsecutiveOnes\nonNegativeIntegersWithoutConsecutiveOnes.csproj", "{1A1ED774-C04C-4A38-AC98-0A6BDE7667EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nonNegativeIntegersWithoutConsecutiveOnes", "LeetCodeChallenges\nonNegativeIntegersWithoutConsecutiveOnes\nonNegativeIntegersWithoutConsecutiveOnes.csproj", "{1A1ED774-C04C-4A38-AC98-0A6BDE7667EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subsets2", "LeetCodeChallenges\Subsets2\Subsets2.csproj", "{0A134D3F-5585-4B45-AA9C-192DC82EDCBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -347,6 +349,10 @@ Global
 		{1A1ED774-C04C-4A38-AC98-0A6BDE7667EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A1ED774-C04C-4A38-AC98-0A6BDE7667EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A1ED774-C04C-4A38-AC98-0A6BDE7667EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A134D3F-5585-4B45-AA9C-192DC82EDCBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A134D3F-5585-4B45-AA9C-192DC82EDCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A134D3F-5585-4B45-AA9C-192DC82EDCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A134D3F-5585-4B45-AA9C-192DC82EDCBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -390,6 +396,7 @@ Global
 		{A4F0179A-36EE-4941-8BB8-BC557F194270} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{4FB8A3DC-6F13-4CB2-AE5A-AF37CA16B0E0} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{1A1ED774-C04C-4A38-AC98-0A6BDE7667EA} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
+		{0A134D3F-5585-4B45-AA9C-192DC82EDCBE} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
