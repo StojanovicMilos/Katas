@@ -125,7 +125,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subsets2", "LeetCodeChallen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestCommonPrefix", "LeetCodeChallenges\LongestCommonPrefix\LongestCommonPrefix.csproj", "{CB74F14D-14C1-40E7-88B8-4EFFD23BD12A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N-aryTreeLevelOrderTraversal", "LeetCodeChallenges\N-aryTreeLevelOrderTraversal\N-aryTreeLevelOrderTraversal.csproj", "{BA3D6090-6BA7-46A6-8E81-885DAF6CB309}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N-aryTreeLevelOrderTraversal", "LeetCodeChallenges\N-aryTreeLevelOrderTraversal\N-aryTreeLevelOrderTraversal.csproj", "{BA3D6090-6BA7-46A6-8E81-885DAF6CB309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagrams", "LeetCodeChallenges\GroupAnagrams\GroupAnagrams.csproj", "{0D82CDDB-7CB7-472A-8ADD-643A27863E06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -365,6 +367,10 @@ Global
 		{BA3D6090-6BA7-46A6-8E81-885DAF6CB309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA3D6090-6BA7-46A6-8E81-885DAF6CB309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA3D6090-6BA7-46A6-8E81-885DAF6CB309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D82CDDB-7CB7-472A-8ADD-643A27863E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D82CDDB-7CB7-472A-8ADD-643A27863E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D82CDDB-7CB7-472A-8ADD-643A27863E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D82CDDB-7CB7-472A-8ADD-643A27863E06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -411,6 +417,7 @@ Global
 		{0A134D3F-5585-4B45-AA9C-192DC82EDCBE} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{CB74F14D-14C1-40E7-88B8-4EFFD23BD12A} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{BA3D6090-6BA7-46A6-8E81-885DAF6CB309} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
+		{0D82CDDB-7CB7-472A-8ADD-643A27863E06} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
