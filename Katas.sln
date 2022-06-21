@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30225.117
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{42A2D817-205F-4676-A26B-D8431B893E56}"
 EndProject
@@ -127,7 +127,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestCommonPrefix", "Leet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N-aryTreeLevelOrderTraversal", "LeetCodeChallenges\N-aryTreeLevelOrderTraversal\N-aryTreeLevelOrderTraversal.csproj", "{BA3D6090-6BA7-46A6-8E81-885DAF6CB309}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupAnagrams", "LeetCodeChallenges\GroupAnagrams\GroupAnagrams.csproj", "{0D82CDDB-7CB7-472A-8ADD-643A27863E06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupAnagrams", "LeetCodeChallenges\GroupAnagrams\GroupAnagrams.csproj", "{0D82CDDB-7CB7-472A-8ADD-643A27863E06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingArrayEvenOdd", "Microsoft\SortingArrayEvenOdd\SortingArrayEvenOdd.csproj", "{6167668D-FF1D-48AA-8E97-01CE75A82E4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingArrayEvenOdd.Tests", "Microsoft\SortingArrayEvenOdd.Tests\SortingArrayEvenOdd.Tests.csproj", "{0918A26F-46C5-4976-A876-EF4FCBB645EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurthestBuildingYouCanReach", "FurthestBuildingYouCanReach\FurthestBuildingYouCanReach.csproj", "{A0FCE1E9-323F-45F9-9F8D-E62FAA354670}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -371,6 +377,18 @@ Global
 		{0D82CDDB-7CB7-472A-8ADD-643A27863E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D82CDDB-7CB7-472A-8ADD-643A27863E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D82CDDB-7CB7-472A-8ADD-643A27863E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6167668D-FF1D-48AA-8E97-01CE75A82E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6167668D-FF1D-48AA-8E97-01CE75A82E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6167668D-FF1D-48AA-8E97-01CE75A82E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6167668D-FF1D-48AA-8E97-01CE75A82E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0918A26F-46C5-4976-A876-EF4FCBB645EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0918A26F-46C5-4976-A876-EF4FCBB645EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0918A26F-46C5-4976-A876-EF4FCBB645EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0918A26F-46C5-4976-A876-EF4FCBB645EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0FCE1E9-323F-45F9-9F8D-E62FAA354670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FCE1E9-323F-45F9-9F8D-E62FAA354670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FCE1E9-323F-45F9-9F8D-E62FAA354670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FCE1E9-323F-45F9-9F8D-E62FAA354670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -418,6 +436,9 @@ Global
 		{CB74F14D-14C1-40E7-88B8-4EFFD23BD12A} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{BA3D6090-6BA7-46A6-8E81-885DAF6CB309} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{0D82CDDB-7CB7-472A-8ADD-643A27863E06} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
+		{6167668D-FF1D-48AA-8E97-01CE75A82E4A} = {511F6CF8-DCD6-450D-BD68-80E6CAED48CF}
+		{0918A26F-46C5-4976-A876-EF4FCBB645EA} = {511F6CF8-DCD6-450D-BD68-80E6CAED48CF}
+		{A0FCE1E9-323F-45F9-9F8D-E62FAA354670} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
