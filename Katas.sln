@@ -137,7 +137,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FurthestBuildingYouCanReach
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeNumber", "LeetCodeChallenges\PalindromeNumber\PalindromeNumber.csproj", "{7E372CE4-746A-4FBA-A320-EA25A8AA7E07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubstringWithoutRepeatingCharacters", "LeetCodeChallenges\LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.csproj", "{70F8F3AC-4145-4AB6-A26F-4E6989F74D00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestSubstringWithoutRepeatingCharacters", "LeetCodeChallenges\LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.csproj", "{70F8F3AC-4145-4AB6-A26F-4E6989F74D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartitioningIntoMinimumNumberOfDeciBinaryNumbers", "PartitioningIntoMinimumNumberOfDeciBinaryNumbers\PartitioningIntoMinimumNumberOfDeciBinaryNumbers.csproj", "{A69ACE40-56F7-4C14-82DC-E3C89B0AEA50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -401,6 +403,10 @@ Global
 		{70F8F3AC-4145-4AB6-A26F-4E6989F74D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70F8F3AC-4145-4AB6-A26F-4E6989F74D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70F8F3AC-4145-4AB6-A26F-4E6989F74D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A69ACE40-56F7-4C14-82DC-E3C89B0AEA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69ACE40-56F7-4C14-82DC-E3C89B0AEA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69ACE40-56F7-4C14-82DC-E3C89B0AEA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69ACE40-56F7-4C14-82DC-E3C89B0AEA50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -453,6 +459,7 @@ Global
 		{A0FCE1E9-323F-45F9-9F8D-E62FAA354670} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{7E372CE4-746A-4FBA-A320-EA25A8AA7E07} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{70F8F3AC-4145-4AB6-A26F-4E6989F74D00} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
+		{A69ACE40-56F7-4C14-82DC-E3C89B0AEA50} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
