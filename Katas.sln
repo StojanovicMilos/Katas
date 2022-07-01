@@ -143,7 +143,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartitioningIntoMinimumNumb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumDeletionsToMakeCharacterFrequenciesUnique", "LeetCodeChallenges\MinimumDeletionsToMakeCharacterFrequenciesUnique\MinimumDeletionsToMakeCharacterFrequenciesUnique.csproj", "{F31EB680-0ED9-405F-93EA-39BC009E4D32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumMovesToEqualArrayElementsII", "LeetCodeChallenges\MinimumMovesToEqualArrayElementsII\MinimumMovesToEqualArrayElementsII.csproj", "{3FA44E52-CF78-48FD-A2CF-AE7987BA0A19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumMovesToEqualArrayElementsII", "LeetCodeChallenges\MinimumMovesToEqualArrayElementsII\MinimumMovesToEqualArrayElementsII.csproj", "{3FA44E52-CF78-48FD-A2CF-AE7987BA0A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchInsertPosition", "LeetCodeChallenges\SearchInsertPosition\SearchInsertPosition.csproj", "{9A5DEB27-FD6B-46E1-A001-87B4EF61BFDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -419,6 +421,10 @@ Global
 		{3FA44E52-CF78-48FD-A2CF-AE7987BA0A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FA44E52-CF78-48FD-A2CF-AE7987BA0A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FA44E52-CF78-48FD-A2CF-AE7987BA0A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5DEB27-FD6B-46E1-A001-87B4EF61BFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5DEB27-FD6B-46E1-A001-87B4EF61BFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5DEB27-FD6B-46E1-A001-87B4EF61BFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5DEB27-FD6B-46E1-A001-87B4EF61BFDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -474,6 +480,7 @@ Global
 		{A69ACE40-56F7-4C14-82DC-E3C89B0AEA50} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{F31EB680-0ED9-405F-93EA-39BC009E4D32} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{3FA44E52-CF78-48FD-A2CF-AE7987BA0A19} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
+		{9A5DEB27-FD6B-46E1-A001-87B4EF61BFDB} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
