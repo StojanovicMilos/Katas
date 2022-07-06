@@ -147,7 +147,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumMovesToEqualArrayEle
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchInsertPosition", "LeetCodeChallenges\SearchInsertPosition\SearchInsertPosition.csproj", "{9A5DEB27-FD6B-46E1-A001-87B4EF61BFDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candy", "LeetCodeChallenges\Candy\Candy.csproj", "{A2AA668D-C54A-4A2F-A6E3-9EAB3AB768F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candy", "LeetCodeChallenges\Candy\Candy.csproj", "{A2AA668D-C54A-4A2F-A6E3-9EAB3AB768F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciNumber", "FibonacciNumber\FibonacciNumber.csproj", "{F64A7ACB-4112-4BD7-ABC4-CC71C525ED6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -431,6 +433,10 @@ Global
 		{A2AA668D-C54A-4A2F-A6E3-9EAB3AB768F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2AA668D-C54A-4A2F-A6E3-9EAB3AB768F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2AA668D-C54A-4A2F-A6E3-9EAB3AB768F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64A7ACB-4112-4BD7-ABC4-CC71C525ED6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64A7ACB-4112-4BD7-ABC4-CC71C525ED6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64A7ACB-4112-4BD7-ABC4-CC71C525ED6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64A7ACB-4112-4BD7-ABC4-CC71C525ED6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -488,6 +494,7 @@ Global
 		{3FA44E52-CF78-48FD-A2CF-AE7987BA0A19} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{9A5DEB27-FD6B-46E1-A001-87B4EF61BFDB} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{A2AA668D-C54A-4A2F-A6E3-9EAB3AB768F6} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
+		{F64A7ACB-4112-4BD7-ABC4-CC71C525ED6D} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
