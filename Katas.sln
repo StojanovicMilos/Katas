@@ -151,7 +151,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candy", "LeetCodeChallenges
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciNumber", "FibonacciNumber\FibonacciNumber.csproj", "{F64A7ACB-4112-4BD7-ABC4-CC71C525ED6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiggleSequence", "LeetCodeChallenges\WiggleSequence\WiggleSequence.csproj", "{80A00F1D-A7AD-438A-9BC1-B1732D86F7A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WiggleSequence", "LeetCodeChallenges\WiggleSequence\WiggleSequence.csproj", "{80A00F1D-A7AD-438A-9BC1-B1732D86F7A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FreeCodeCamp", "FreeCodeCamp", "{398B6EE3-DB0D-4B97-B289-9829350D1A34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidAnagram", "FreeCodeCamp\ValidAnagram\ValidAnagram.csproj", "{336249B6-E6D5-49F5-A861-F05769A358F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -443,6 +447,10 @@ Global
 		{80A00F1D-A7AD-438A-9BC1-B1732D86F7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80A00F1D-A7AD-438A-9BC1-B1732D86F7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80A00F1D-A7AD-438A-9BC1-B1732D86F7A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336249B6-E6D5-49F5-A861-F05769A358F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336249B6-E6D5-49F5-A861-F05769A358F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336249B6-E6D5-49F5-A861-F05769A358F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336249B6-E6D5-49F5-A861-F05769A358F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -502,6 +510,7 @@ Global
 		{A2AA668D-C54A-4A2F-A6E3-9EAB3AB768F6} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{F64A7ACB-4112-4BD7-ABC4-CC71C525ED6D} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{80A00F1D-A7AD-438A-9BC1-B1732D86F7A9} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
+		{336249B6-E6D5-49F5-A861-F05769A358F5} = {398B6EE3-DB0D-4B97-B289-9829350D1A34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
