@@ -11,10 +11,10 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="ApprovalTests">
-      <Version>5.7.0</Version>
+      <Version>5.7.3</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
-    <PackageReference Include="System.Management" Version="5.0.0" />
+    <PackageReference Include="System.Management" Version="6.0.0" />
   </ItemGroup>
 </Project>
