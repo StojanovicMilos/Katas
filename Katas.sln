@@ -157,9 +157,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FreeCodeCamp", "FreeCodeCam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidAnagram", "FreeCodeCamp\ValidAnagram\ValidAnagram.csproj", "{336249B6-E6D5-49F5-A861-F05769A358F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthLargestElementInArray", "FreeCodeCamp\KthLargestElementInArray\KthLargestElementInArray.csproj", "{5E3B2CC9-98C1-41D9-8AE4-E64FA821C72D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KthLargestElementInArray", "FreeCodeCamp\KthLargestElementInArray\KthLargestElementInArray.csproj", "{5E3B2CC9-98C1-41D9-8AE4-E64FA821C72D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KthLargestElementInArrayTests", "FreeCodeCamp\KthLargestElementInArrayTests\KthLargestElementInArrayTests.csproj", "{98E0B9E9-03E7-4146-9CAC-9CB4937F6DF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KthLargestElementInArrayTests", "FreeCodeCamp\KthLargestElementInArrayTests\KthLargestElementInArrayTests.csproj", "{98E0B9E9-03E7-4146-9CAC-9CB4937F6DF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{C32DEB14-8950-41B2-8283-519284AD74D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "DataStructures\Tree\Tree.csproj", "{E9B7B8B3-ADB0-4107-9A7B-060294C37D04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -463,6 +467,10 @@ Global
 		{98E0B9E9-03E7-4146-9CAC-9CB4937F6DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98E0B9E9-03E7-4146-9CAC-9CB4937F6DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98E0B9E9-03E7-4146-9CAC-9CB4937F6DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B7B8B3-ADB0-4107-9A7B-060294C37D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B7B8B3-ADB0-4107-9A7B-060294C37D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B7B8B3-ADB0-4107-9A7B-060294C37D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B7B8B3-ADB0-4107-9A7B-060294C37D04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -525,6 +533,7 @@ Global
 		{336249B6-E6D5-49F5-A861-F05769A358F5} = {398B6EE3-DB0D-4B97-B289-9829350D1A34}
 		{5E3B2CC9-98C1-41D9-8AE4-E64FA821C72D} = {398B6EE3-DB0D-4B97-B289-9829350D1A34}
 		{98E0B9E9-03E7-4146-9CAC-9CB4937F6DF7} = {398B6EE3-DB0D-4B97-B289-9829350D1A34}
+		{E9B7B8B3-ADB0-4107-9A7B-060294C37D04} = {C32DEB14-8950-41B2-8283-519284AD74D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
