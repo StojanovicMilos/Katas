@@ -163,7 +163,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KthLargestElementInArrayTes
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{C32DEB14-8950-41B2-8283-519284AD74D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "DataStructures\Tree\Tree.csproj", "{E9B7B8B3-ADB0-4107-9A7B-060294C37D04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree", "DataStructures\Tree\Tree.csproj", "{E9B7B8B3-ADB0-4107-9A7B-060294C37D04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLargestElementsInArray", "KLargestElementsInArray\KLargestElementsInArray.csproj", "{0522634B-5374-4DBE-83B4-660E1A745438}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -471,6 +473,10 @@ Global
 		{E9B7B8B3-ADB0-4107-9A7B-060294C37D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9B7B8B3-ADB0-4107-9A7B-060294C37D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9B7B8B3-ADB0-4107-9A7B-060294C37D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0522634B-5374-4DBE-83B4-660E1A745438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0522634B-5374-4DBE-83B4-660E1A745438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0522634B-5374-4DBE-83B4-660E1A745438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0522634B-5374-4DBE-83B4-660E1A745438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
