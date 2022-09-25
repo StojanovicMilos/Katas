@@ -165,7 +165,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStruc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree", "DataStructures\Tree\Tree.csproj", "{E9B7B8B3-ADB0-4107-9A7B-060294C37D04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLargestElementsInArray", "KLargestElementsInArray\KLargestElementsInArray.csproj", "{0522634B-5374-4DBE-83B4-660E1A745438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KLargestElementsInArray", "KLargestElementsInArray\KLargestElementsInArray.csproj", "{0522634B-5374-4DBE-83B4-660E1A745438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularQueue", "DataStructures\CircularQueue\CircularQueue.csproj", "{BD0D1049-AB09-4E4C-8378-B51852D38D21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -477,6 +479,10 @@ Global
 		{0522634B-5374-4DBE-83B4-660E1A745438}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0522634B-5374-4DBE-83B4-660E1A745438}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0522634B-5374-4DBE-83B4-660E1A745438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD0D1049-AB09-4E4C-8378-B51852D38D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0D1049-AB09-4E4C-8378-B51852D38D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0D1049-AB09-4E4C-8378-B51852D38D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0D1049-AB09-4E4C-8378-B51852D38D21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -540,6 +546,7 @@ Global
 		{5E3B2CC9-98C1-41D9-8AE4-E64FA821C72D} = {398B6EE3-DB0D-4B97-B289-9829350D1A34}
 		{98E0B9E9-03E7-4146-9CAC-9CB4937F6DF7} = {398B6EE3-DB0D-4B97-B289-9829350D1A34}
 		{E9B7B8B3-ADB0-4107-9A7B-060294C37D04} = {C32DEB14-8950-41B2-8283-519284AD74D5}
+		{BD0D1049-AB09-4E4C-8378-B51852D38D21} = {C32DEB14-8950-41B2-8283-519284AD74D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
