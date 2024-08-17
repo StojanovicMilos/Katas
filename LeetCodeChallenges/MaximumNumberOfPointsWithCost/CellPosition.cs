@@ -1,0 +1,1 @@
+﻿internal record CellPosition(int Row, int Column);
