@@ -8,7 +8,7 @@ internal abstract class BaseEmployee
     internal bool IsAvailable { get; private set; }
     protected virtual bool CanHandleCall { get; } //question for the interviewer: what does it mean to (not) be able to handle the call
 
-    internal void HandleCall(IDispatchSystem dispatchSystem)
+    internal void HandleCall(IEscalateCallSystem escalateCallSystem)
     {
         if (CanHandleCall)
         {
@@ -18,8 +18,8 @@ internal abstract class BaseEmployee
             return;
         }
 
-        EscalateCall(dispatchSystem);
+        EscalateCall(escalateCallSystem);
     }
 
-    internal virtual void EscalateCall(IDispatchSystem dispatchSystem) => dispatchSystem.EscalateCall(Level + 1);
+    internal virtual void EscalateCall(IEscalateCallSystem escalateCallSystem) => escalateCallSystem.EscalateCall(Level + 1);
 }

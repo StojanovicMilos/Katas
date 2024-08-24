@@ -1,4 +1,4 @@
-﻿internal class DispatchSystem : IDispatchSystem
+﻿internal class DispatchSystem : IDispatchSystem, IEscalateCallSystem
 {
     private readonly List<BaseEmployee> _employees;
 
