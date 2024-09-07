@@ -205,9 +205,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseInteger", "LeetCodeC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegerToRoman", "LeetCodeChallenges\IntegerToRoman\IntegerToRoman.csproj", "{93266257-803D-4C55-A88C-E663E8905BDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMissingObservations", "LeetCodeChallenges\FindMissingObservations\FindMissingObservations.csproj", "{669A91ED-9E09-497F-B00D-881CB199ACDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMissingObservations", "LeetCodeChallenges\FindMissingObservations\FindMissingObservations.csproj", "{669A91ED-9E09-497F-B00D-881CB199ACDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalkingRobotSimulation", "LeetCodeChallenges\WalkingRobotSimulation\WalkingRobotSimulation.csproj", "{41495DB6-599C-48FE-A0F6-0D30CD328EE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalkingRobotSimulation", "LeetCodeChallenges\WalkingRobotSimulation\WalkingRobotSimulation.csproj", "{41495DB6-599C-48FE-A0F6-0D30CD328EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListInBinaryTree", "LeetCodeChallenges\LinkedListInBinaryTree\LinkedListInBinaryTree.csproj", "{86BF6583-B092-4A00-A0B8-705534F20425}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -599,6 +601,10 @@ Global
 		{41495DB6-599C-48FE-A0F6-0D30CD328EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41495DB6-599C-48FE-A0F6-0D30CD328EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41495DB6-599C-48FE-A0F6-0D30CD328EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86BF6583-B092-4A00-A0B8-705534F20425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BF6583-B092-4A00-A0B8-705534F20425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BF6583-B092-4A00-A0B8-705534F20425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BF6583-B092-4A00-A0B8-705534F20425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -682,6 +688,7 @@ Global
 		{93266257-803D-4C55-A88C-E663E8905BDD} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{669A91ED-9E09-497F-B00D-881CB199ACDD} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{41495DB6-599C-48FE-A0F6-0D30CD328EE1} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
+		{86BF6583-B092-4A00-A0B8-705534F20425} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
