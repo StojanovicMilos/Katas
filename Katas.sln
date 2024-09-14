@@ -217,6 +217,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubarrayWithMaximumB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XorQueriesOfSubarray", "XorQueriesOfSubarray\XorQueriesOfSubarray.csproj", "{BAFD4246-B2DE-45F2-B4F7-DA0267B0492E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountNumberOfConsistentStrings", "LeetCodeChallenges\CountNumberOfConsistentStrings\CountNumberOfConsistentStrings.csproj", "{C1953C51-2529-4726-8263-0EC2D4E2AD00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -623,6 +625,10 @@ Global
 		{BAFD4246-B2DE-45F2-B4F7-DA0267B0492E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAFD4246-B2DE-45F2-B4F7-DA0267B0492E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAFD4246-B2DE-45F2-B4F7-DA0267B0492E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1953C51-2529-4726-8263-0EC2D4E2AD00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1953C51-2529-4726-8263-0EC2D4E2AD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1953C51-2529-4726-8263-0EC2D4E2AD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1953C51-2529-4726-8263-0EC2D4E2AD00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -710,6 +716,7 @@ Global
 		{63B6DE54-7DB9-4996-AF53-09BC5039BB08} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{020F25F7-73BA-4D0B-8DBF-3B077C6CC453} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{BAFD4246-B2DE-45F2-B4F7-DA0267B0492E} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
+		{C1953C51-2529-4726-8263-0EC2D4E2AD00} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
