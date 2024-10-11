@@ -225,6 +225,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfTheSmallestUnoccupi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumDepthOfBinaryTree", "LeetCodeChallenges\MaximumDepthOfBinaryTree\MaximumDepthOfBinaryTree.csproj", "{669C18EB-1A45-460D-9185-518D173A3946}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeKSortedLists", "LeetCodeChallenges\MergeKSortedLists\MergeKSortedLists.csproj", "{53F83414-9A67-41CC-B785-8F1051E7A4BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -647,6 +649,10 @@ Global
 		{669C18EB-1A45-460D-9185-518D173A3946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{669C18EB-1A45-460D-9185-518D173A3946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{669C18EB-1A45-460D-9185-518D173A3946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F83414-9A67-41CC-B785-8F1051E7A4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F83414-9A67-41CC-B785-8F1051E7A4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F83414-9A67-41CC-B785-8F1051E7A4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F83414-9A67-41CC-B785-8F1051E7A4BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -738,6 +744,7 @@ Global
 		{2939A4CD-64A2-4001-8C64-2F8B6EA45D38} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{D84FDE5A-E24C-4BBD-AF58-454D9322690F} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{669C18EB-1A45-460D-9185-518D173A3946} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
+		{53F83414-9A67-41CC-B785-8F1051E7A4BD} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
