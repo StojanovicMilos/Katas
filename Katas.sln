@@ -213,13 +213,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListInBinaryTree", "L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZigzagConversion", "LeetCodeChallenges\ZigzagConversion\ZigzagConversion.csproj", "{63B6DE54-7DB9-4996-AF53-09BC5039BB08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubarrayWithMaximumBitwiseAND", "LeetCodeChallenges\LongestSubarrayWithMaximumBitwiseAND\LongestSubarrayWithMaximumBitwiseAND.csproj", "{020F25F7-73BA-4D0B-8DBF-3B077C6CC453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestSubarrayWithMaximumBitwiseAND", "LeetCodeChallenges\LongestSubarrayWithMaximumBitwiseAND\LongestSubarrayWithMaximumBitwiseAND.csproj", "{020F25F7-73BA-4D0B-8DBF-3B077C6CC453}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XorQueriesOfSubarray", "XorQueriesOfSubarray\XorQueriesOfSubarray.csproj", "{BAFD4246-B2DE-45F2-B4F7-DA0267B0492E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XorQueriesOfSubarray", "XorQueriesOfSubarray\XorQueriesOfSubarray.csproj", "{BAFD4246-B2DE-45F2-B4F7-DA0267B0492E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountNumberOfConsistentStrings", "LeetCodeChallenges\CountNumberOfConsistentStrings\CountNumberOfConsistentStrings.csproj", "{C1953C51-2529-4726-8263-0EC2D4E2AD00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountNumberOfConsistentStrings", "LeetCodeChallenges\CountNumberOfConsistentStrings\CountNumberOfConsistentStrings.csproj", "{C1953C51-2529-4726-8263-0EC2D4E2AD00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumBitFlipsToConvertNumber", "LeetCodeChallenges\MinimumBitFlipsToConvertNumber\MinimumBitFlipsToConvertNumber.csproj", "{2939A4CD-64A2-4001-8C64-2F8B6EA45D38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumBitFlipsToConvertNumber", "LeetCodeChallenges\MinimumBitFlipsToConvertNumber\MinimumBitFlipsToConvertNumber.csproj", "{2939A4CD-64A2-4001-8C64-2F8B6EA45D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfTheSmallestUnoccupiedChair", "LeetCodeChallenges\NumberOfTheSmallestUnoccupiedChair\NumberOfTheSmallestUnoccupiedChair.csproj", "{D84FDE5A-E24C-4BBD-AF58-454D9322690F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -635,6 +637,10 @@ Global
 		{2939A4CD-64A2-4001-8C64-2F8B6EA45D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2939A4CD-64A2-4001-8C64-2F8B6EA45D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2939A4CD-64A2-4001-8C64-2F8B6EA45D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84FDE5A-E24C-4BBD-AF58-454D9322690F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84FDE5A-E24C-4BBD-AF58-454D9322690F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84FDE5A-E24C-4BBD-AF58-454D9322690F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84FDE5A-E24C-4BBD-AF58-454D9322690F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -724,6 +730,7 @@ Global
 		{BAFD4246-B2DE-45F2-B4F7-DA0267B0492E} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{C1953C51-2529-4726-8263-0EC2D4E2AD00} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{2939A4CD-64A2-4001-8C64-2F8B6EA45D38} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
+		{D84FDE5A-E24C-4BBD-AF58-454D9322690F} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
