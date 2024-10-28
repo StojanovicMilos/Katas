@@ -221,11 +221,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountNumberOfConsistentStri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumBitFlipsToConvertNumber", "LeetCodeChallenges\MinimumBitFlipsToConvertNumber\MinimumBitFlipsToConvertNumber.csproj", "{2939A4CD-64A2-4001-8C64-2F8B6EA45D38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfTheSmallestUnoccupiedChair", "LeetCodeChallenges\NumberOfTheSmallestUnoccupiedChair\NumberOfTheSmallestUnoccupiedChair.csproj", "{D84FDE5A-E24C-4BBD-AF58-454D9322690F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfTheSmallestUnoccupiedChair", "LeetCodeChallenges\NumberOfTheSmallestUnoccupiedChair\NumberOfTheSmallestUnoccupiedChair.csproj", "{D84FDE5A-E24C-4BBD-AF58-454D9322690F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumDepthOfBinaryTree", "LeetCodeChallenges\MaximumDepthOfBinaryTree\MaximumDepthOfBinaryTree.csproj", "{669C18EB-1A45-460D-9185-518D173A3946}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumDepthOfBinaryTree", "LeetCodeChallenges\MaximumDepthOfBinaryTree\MaximumDepthOfBinaryTree.csproj", "{669C18EB-1A45-460D-9185-518D173A3946}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeKSortedLists", "LeetCodeChallenges\MergeKSortedLists\MergeKSortedLists.csproj", "{53F83414-9A67-41CC-B785-8F1051E7A4BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeKSortedLists", "LeetCodeChallenges\MergeKSortedLists\MergeKSortedLists.csproj", "{53F83414-9A67-41CC-B785-8F1051E7A4BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSquareStreakInAnArray", "LeetCodeChallenges\LongestSquareStreakInAnArray\LongestSquareStreakInAnArray.csproj", "{6A3F5703-21DE-42CE-A54C-7FE41F52BAAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -653,6 +655,10 @@ Global
 		{53F83414-9A67-41CC-B785-8F1051E7A4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53F83414-9A67-41CC-B785-8F1051E7A4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53F83414-9A67-41CC-B785-8F1051E7A4BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3F5703-21DE-42CE-A54C-7FE41F52BAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3F5703-21DE-42CE-A54C-7FE41F52BAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3F5703-21DE-42CE-A54C-7FE41F52BAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3F5703-21DE-42CE-A54C-7FE41F52BAAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -745,6 +751,7 @@ Global
 		{D84FDE5A-E24C-4BBD-AF58-454D9322690F} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{669C18EB-1A45-460D-9185-518D173A3946} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 		{53F83414-9A67-41CC-B785-8F1051E7A4BD} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
+		{6A3F5703-21DE-42CE-A54C-7FE41F52BAAE} = {74A1AE1D-5BC3-4CA1-BB94-B7BE7B516B5A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81B3E4FC-6545-4A95-82E6-D107D42CAD72}
